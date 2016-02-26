@@ -1,0 +1,4 @@
+AllCops:
+  Exclude:
+    - 'Guardfile'
+    - 'hometester_directory'
