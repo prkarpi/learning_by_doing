@@ -1,9 +1,7 @@
 #!/usr/bin/env ruby
 
-# Start at five.
 index = 99
 
-# Continued own until zero reached.
 until index == 0
   print index
 
