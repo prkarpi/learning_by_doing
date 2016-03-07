@@ -17,7 +17,7 @@ end
   def miles_from_davinci_to_home
     @davinci + @work
   end
-  
+
 end
 
 count_miles = DailyDrivingMiles.new
