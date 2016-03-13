@@ -7,7 +7,7 @@ class CashRegister
   end
 
   def total
-    0.00
+    @total
   end
 
   def total_after_purchase
@@ -45,7 +45,7 @@ class CashRegisterNew
   end
 
   def total
-    0.00
+    @total
   end
 
   def total_after_purchase
