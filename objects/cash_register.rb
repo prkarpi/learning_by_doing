@@ -10,9 +10,9 @@ class CashRegister
     @total
   end
 
-  def total_after_purchase
-    @purchase
-  end
+  # def total_after_purchase
+  #   @purchase
+  # end
 
   def purchase(number = 3.78)
     @total += number
@@ -31,7 +31,7 @@ end
 register = CashRegister.new
 puts "Register total $#{register.total}"
 puts "Register purchase $#{register.purchase}"
-puts "Register total $#{register.total_after_purchase}"
+puts "Register total $#{register.total}"
 puts "Register pay $#{register.pay}"
 puts "Your change is $%5.2f"%[register.change]
 
