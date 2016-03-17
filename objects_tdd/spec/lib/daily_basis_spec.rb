@@ -17,7 +17,9 @@ describe DailyDrivingMiles do
   end
   describe '#miles_from_davinci_to_home' do
     it 'should display davinci to home miles' do
-      expect(subject.miles_from_davinci_to_home).to eq()
+      subject.miles_from_home_to_work
+      subject.miles_from_work_to_davinci
+      expect(subject.miles_from_davinci_to_home).to eq(19.75)
     end
   end
 end
