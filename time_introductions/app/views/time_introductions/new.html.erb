@@ -1,0 +1,13 @@
+<% if params[:name_one] == 'time_now' %>
+  <%
+    today = Time.new.asctime
+  %>
+  The current time is  <%= today %>
+
+<% elsif %>
+  Hello <%= params[:name_one] %> and <%= params[:name_two] %>
+
+  <% else %>
+  Hello jj
+
+<% end %>
