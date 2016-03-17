@@ -19,7 +19,7 @@ class CashRegister
     @pay = 5
   end
 
-  def change(number)
+  def change(number = 2)
     @pay -= number
   end
 end

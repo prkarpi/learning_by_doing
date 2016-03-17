@@ -25,9 +25,10 @@ describe CashRegister do
 
     describe '#change' do
       it 'should return the change amount' do
-        subject.purchase(10)
-        subject.pay(5)
-        expect(subject.change).to eq(2)
+
+        subject.purchase(3)
+        subject.pay
+        expect(subject.change).to eq(3)
       end
     end
   end
